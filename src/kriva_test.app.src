@@ -1,0 +1,17 @@
+{application, kriva_test,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { kriva_test_app, []}},
+  {applications,
+   [kernel,stdlib,crypto,cowboy,
+    compiler,lager,syntax_tools,
+    jiffy,bcrypt,erlpass,oauth2
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
